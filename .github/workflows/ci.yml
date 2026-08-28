@@ -19,6 +19,6 @@ jobs:
         with:
           node-version: 22
 
-      - name: Force Failure
+      - name: Print Node version
         run: node --version
 
